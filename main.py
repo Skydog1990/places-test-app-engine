@@ -20,7 +20,7 @@ def main_api_places(latlong,type1):
     places_endresults.append(places_details)
   return(places_endresults)
   
-  powai_places = (main_api_places('19.1197,72.9052','cafe'))
+powai_places = (main_api_places('19.1197,72.9052','cafe'))
   
   def places_name_intent():
   for places in powai_places:
